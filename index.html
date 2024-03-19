@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+    .container{
+        display: grid;
+     grid-template-columns: 100px 100px 100px ;
+     grid-template-rows: 100px 100px 100px;
+     gap: 10px;
+     text-align: center;
+     justify-content: center;
+     
+     
+
+    }
+    .child1{
+        grid-column: 1/2;
+        grid-row: 1/2;
+        background-color: red;
+   
+    }
+    .child2{
+        grid-column: 2/3;
+        grid-row: 1/2;
+        background-color: yellowgreen;
+    }
+    .child3{
+        grid-column: 3/4;
+        grid-row: 1/2;
+        background-color: blue;
+    }
+    .child4{
+        grid-column: 1/2;
+        grid-row: 2/3;
+        background-color:rosybrown;
+
+    }
+    .child5{
+        grid-column: 2/3;
+        grid-row: 2/3;
+        background-color: blue;
+    }
+    .child6{
+        grid-column: 3/4;
+        grid-row: 2/3;
+        background-color: green;
+    }
+    .child7{
+        
+        grid-column: 1/2;
+        grid-row: 3/4;
+        background-color: violet;
+    }
+    .child8{
+        
+        grid-column: 2/3;
+        grid-row: 3/4;
+        background-color:whitesmoke;
+    }
+    .child9{
+        
+        grid-column: 3/4;
+        grid-row: 3/4;
+        background-color:bisque;
+    }
+   </style>
+</head>
+<body>
+    <div class="container">
+        <div class="child1" style="width: 100px; height: 100px;">1</div>
+        <div class="child2" style="width: 100px; height: 100px;">2</div>
+        <div class="child3" style="width: 100px; height: 100px;">3</div>
+        <div class="child4" style="width: 100px; height: 100px;">4</div>
+        <div class="child5" style="width: 100px; height: 100px;">5</div>
+        <div class="child6" style="width: 100px; height: 100px;">5</div>
+        <div class="child7" style="width: 100px; height: 100px;">7</div>
+        <div class="child8" style="width: 100px; height: 100px;">8</div>
+        <div class="child9" style="width: 100px; height: 100px;">9</div>
+
+    </div>
+</body>
+</html>
